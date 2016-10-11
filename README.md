@@ -1,2 +1,3 @@
-# Public Examples
-Small examples for the Defold engine
+# Examples template
+This is the empty project on which all other examples are based.
+
