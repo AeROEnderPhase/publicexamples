@@ -1,9 +1,9 @@
 [project]
-title = PublicExamples
+title = Simple AI
 custom_resources = 
 
 [bootstrap]
-main_collection = /example/example.collectionc
+main_collection = /game/game.collectionc
 render = /builtins/render/default.renderc
 
 [input]
@@ -11,8 +11,8 @@ game_binding = /input/game.input_bindingc
 gamepads = /builtins/input/default.gamepadsc
 
 [display]
-width = 640
-height = 1136
+width = 1136
+height = 640
 variable_dt = 1
 
 [physics]
