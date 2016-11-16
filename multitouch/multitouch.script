@@ -15,21 +15,10 @@ function final(self)
 	msg.post(".", "release_input_focus")
 end
 
-function update(self, dt)
-    -- Add update code here
-    -- Remove this function if not needed
-end
-
-function on_message(self, message_id, message, sender)
-    -- Add message-handling code here
-    -- Remove this function if not needed
-end
-
 function on_input(self, action_id, action)
 	if action_id == hash("touch") then
 		if action.touch then
 			log("No of touch points", #action.touch, #self.touchpoints)
-			pprint(action)
 			for i=#action.touch,1,-1 do
 				local touchpoint = action.touch[i]
 				if touchpoint.pressed then
